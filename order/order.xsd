@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-           targetNamespace="http://example.com/order" 
+           targetNamespace="https://github.com/albim72/XML_podstawy_12//order" 
            xmlns="http://example.com/order" 
            xmlns:ns="http://example.com/order" 
            elementFormDefault="qualified">

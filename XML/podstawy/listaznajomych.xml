@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lista_znajomych>
+    <osoba>
+        <imie>Jan</imie>
+        <nazwisko>Kowal</nazwisko>
+        <dataur>12.03.1970</dataur>
+        <miasto>Tarnów</miasto>
+        <email>kowalj@firma.pl</email>
+    </osoba>
+    <osoba>
+        <imie>Leon</imie>
+        <nazwisko>Bryk</nazwisko>
+        <dataur>21.07.1988</dataur>
+        <miasto>Warszawa</miasto>
+        <email>bryk@firma.pl</email>
+    </osoba>
+    <osoba>
+        <imie>Janina</imie>
+        <nazwisko>Kowalska</nazwisko>
+        <dataur>17.04.1978</dataur>
+        <miasto>Kraków</miasto>
+        <email>kowalsk@firma.pl</email>
+    </osoba>
+    <osoba>
+        <imie>Anna</imie>
+        <nazwisko>Nowak</nazwisko>
+        <dataur>12.11.1982</dataur>
+        <miasto>Toruń</miasto>
+        <email>annno@firma.pl</email>
+    </osoba>
+</lista_znajomych>

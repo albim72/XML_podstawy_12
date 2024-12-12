@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT uczelnia (nazwa,wydzial+)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT wydzial (#PCDATA|kierunek|instytuty)*>
+<!ELEMENT kierunek (#PCDATA)>
+<!ELEMENT instytuty (instytut+)>
+<!ELEMENT instytut (#PCDATA)>

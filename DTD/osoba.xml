@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE osoba [
+    <!ENTITY mgr "magister">
+    <!ENTITY dr "doktor">
+    <!ENTITY prof "profesor">
+    <!ELEMENT osoba (imie,nazwisko,miasto)>
+    <!ATTLIST osoba tytul CDATA "&mgr;">
+    <!ATTLIST osoba wydzial ID #REQUIRED>
+    <!ELEMENT imie (#PCDATA)>
+    <!ELEMENT nazwisko (#PCDATA)>
+    <!ELEMENT miasto (#PCDATA)>
+]>
+<osoba tytul="dr hab" wydzial="ekonomia">
+    <imie>Henryk</imie>
+    <nazwisko>Kisiel</nazwisko>
+    <miasto>Kraków</miasto>
+</osoba>

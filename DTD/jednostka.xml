@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abc [
+    <!ELEMENT abc (opisy*,ekstra)>
+    <!ENTITY XML "eXtnsible Markup Language">
+    <!ELEMENT opisy (opis*,footer)>
+    <!ELEMENT opis (#PCDATA)>
+    <!ELEMENT footer (#PCDATA)>
+    <!ELEMENT ekstra (#PCDATA)>
+
+]>
+<abc>
+    <opisy>
+        <opis>To jest teskt o XML czyi o &XML;. Angielski termin "&XML;"
+            ocznacza roszerzalny język znaczników...
+        </opis>
+        <opis>ciąg dalszy tekstu...</opis>
+        <footer>koniec rozważań o &XML;</footer>
+    </opisy>
+    <ekstra>&XML;</ekstra>
+</abc>

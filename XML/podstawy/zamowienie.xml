@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Przykład 3: XML z przestrzeniami nazw-->
+<ns:Order xmlns="https://github.com/albim72/XML_podstawy_12/">
+    <ns:OrderID>243434</ns:OrderID>
+    <ns:Customer>
+        <ns:Name>Janina Kowalska</ns:Name>
+        <ns:Phone>+48765789999</ns:Phone>
+    </ns:Customer>
+    <ns:Items>
+        <ns:Name>Telefon Motorola Edge</ns:Name>
+        <ns:Quantity>1</ns:Quantity>
+    </ns:Items>
+    <ns:Items>
+        <ns:Name>Laptop Asus Zephyrus</ns:Name>
+        <ns:Quantity>1</ns:Quantity>
+    </ns:Items>
+</ns:Order>

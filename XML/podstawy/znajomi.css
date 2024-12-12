@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*Css dokument
+opis źródła listaznoajomych.xml*/
+
+osoba {
+    display: block;
+    margin-top: 12pt;
+    margin-left: 10pt;
+    font-size: 18pt;
+}
+
+imie {
+    font-style: italic;
+    color: blueviolet;
+    display: inline;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+nazwisko {
+    font-weight: bold;
+    color: blueviolet;
+    margin-left: 20pt;
+}
+
+dataur,
+miasto,
+email {
+    display: block;
+}

@@ -1,21 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Przykład 2: struktura herarchiczna  (wymiar: tabela) -->
 <library>
-    <book>
+    <book id="23" oprawa="twarda" online="tak">
         <title>Pan Tadeusz</title>
         <author>Adam Mickiewicz</author>
         <year>1834</year>
         <genre>poezja</genre>
     </book>
-    <book>
+    <book id="65" oprawa="twarda">
         <title>Potop</title>
         <author>Henryk Sienkiewicz</author>
         <year>1886</year>
         <genre>historyczne</genre>
     </book>
-    <book>
+    <book id="245" oprawa="twarda" online="tak">
         <title>Wiedźmin</title>
-        <author>Andrzej Sapkowski</author>
+        <author rok_urodz="1948">Andrzej Sapkowski</author>
         <year>1986</year>
         <genre>fantastyka</genre>
+    </book>
+    <book id="211">
+        <title>ABC Biegacza Ultra</title>
+        <author>Killian Jornet</author>
+        <year>2017</year>
+        <genre>sport</genre>
     </book>
 </library>

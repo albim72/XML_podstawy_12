@@ -1,0 +1,21 @@
+<!-- Przykład 2: struktura herarchiczna  (wymiar: tabela) -->
+<library>
+    <book>
+        <title>Pan Tadeusz</title>
+        <author>Adam Mickiewicz</author>
+        <year>1834</year>
+        <genre>poezja</genre>
+    </book>
+    <book>
+        <title>Potop</title>
+        <author>Henryk Sienkiewicz</author>
+        <year>1886</year>
+        <genre>historyczne</genre>
+    </book>
+    <book>
+        <title>Wiedźmin</title>
+        <author>Andrzej Sapkowski</author>
+        <year>1986</year>
+        <genre>fantastyka</genre>
+    </book>
+</library>

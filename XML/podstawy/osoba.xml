@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Przykład 1: Prosty plik XML z danymi-->
+<Person> <!-- element root - może byc tylko jeden -->
+    <Name>Jan Kowalski</Name>
+    <Age>37</Age>
+    <Email>ja.kowalski70@gmail.com</Email>
+    <Address street="Bursztynowa" nb="23/4" city="Lublin" />
+    <Firm>
+        <FirmName>ABC</FirmName>
+        <FirmCity>Kraków</FirmCity>
+        <FirmStreet>Technologiczna</FirmStreet>
+        <FirmLocalNb>45</FirmLocalNb>
+    </Firm>
+</Person>               

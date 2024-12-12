@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-           targetNamespace="https://github.com/albim72/XML_podstawy_12/tree/main/order" 
-           xmlns="http://example.com/order" 
-           xmlns:ns="http://example.com/order" 
+           targetNamespace="http://localhost/order" 
+           xmlns="http://localhost/order" 
+           xmlns:ns="http://localhost/order" 
            elementFormDefault="qualified">
 
     <!-- Definicja głównego elementu Order -->

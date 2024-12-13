@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- Przykład dla sequence -->
+  <address>
+    <street>Ul. Główna</street>
+    <city>Kraków</city>
+    <zipcode>30-001</zipcode>
+  </address>
+
+  <person>
+    <firstname>Jan</firstname>
+    <lastname>Kowalski</lastname>
+    <age>45</age>
+  </person>
+
+  <!-- Przykład dla choice -->
+  <contact>
+    <email>jan.kowalski@example.com</email>
+  </contact>
+
+  <payment>
+    <creditCard>9876-5432-1098-7654</creditCard>
+  </payment>
+
+  <!-- Przykład dla all -->
+  <loginInfo>
+    <username>janek45</username>
+    <password>bezpiecznehaslo456</password>
+  </loginInfo>
+
+  <productDetails>
+    <productName>Komputer</productName>
+    <productID>XYZ456</productID>
+    <price>2999.99</price>
+  </productDetails>
+</root>

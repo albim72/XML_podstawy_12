@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="wynikmeczu.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <wynikMeczu>
     <remis>2:2</remis>
     <wygrana>3:1</wygrana>
@@ -10,4 +11,5 @@
     <wygrana>2:1</wygrana>
     <przegrana>1:2</przegrana>
     <przegrana>2:3</przegrana>
+    <walkower>3:0</walkower>
 </wynikMeczu>

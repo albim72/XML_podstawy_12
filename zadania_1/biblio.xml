@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE biblioteka SYSTEM "biblioteka.dtd">
+<biblioteka>
+    <ksiazka>
+        <tytul>Władca Pierścieni</tytul>
+        <autor>J.R.R. Tolkien</autor>
+        <rok_wydania>1954</rok_wydania>
+        <gatunek>fantasy</gatunek>
+        <isbn>978-3-16-148410-0</isbn>
+    </ksiazka>
+    <ksiazka>
+        <tytul>Harry Potter i Kamień Filozoficzny</tytul>
+        <autor>J.K. Rowling</autor>
+        <rok_wydania>1997</rok_wydania>
+        <gatunek>fantasy</gatunek>
+        <isbn>978-0-7475-3269-9</isbn>
+    </ksiazka>
+    <ksiazka>
+        <tytul>Podstawy Sieci Nuronowych</tytul>
+        <autor>Jan Kowal</autor>
+        <autor>Marcin Albiniak</autor>
+        <rok_wydania>2022</rok_wydania>
+        <gatunek>naukowe</gatunek>
+        <isbn>345-1-6688-1221-6</isbn>
+    </ksiazka>
+</biblioteka>

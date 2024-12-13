@@ -1,0 +1,24 @@
+tytul {
+    font-weight: bold;
+    display: block;
+}
+
+autor {
+    color: blue;
+    display: block;
+}
+
+rok_wydania {
+    font-style: italic;
+    display: block;
+}
+
+gatunek {
+    color: green;
+    display: block;
+}
+
+isbn {
+    font-size: small;
+    display: block;
+}

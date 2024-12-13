@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="seq1.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <root>
   <!-- Przykład dla sequence -->
   <address>
@@ -15,7 +16,13 @@
 
   <!-- Przykład dla choice -->
   <contact>
+    <!-- <email>jan.kowalski@example.com</email> -->
+    <phone>656432234</phone>
+  </contact>
+
+  <contact>
     <email>jan.kowalski@example.com</email>
+    <!-- <phone>656432234</phone> -->
   </contact>
 
   <payment>
@@ -24,13 +31,13 @@
 
   <!-- Przykład dla all -->
   <loginInfo>
-    <username>janek45</username>
     <password>bezpiecznehaslo456</password>
+    <username>janek45</username>
   </loginInfo>
 
   <productDetails>
-    <productName>Komputer</productName>
     <productID>XYZ456</productID>
+    <productName>Komputer</productName>
     <price>2999.99</price>
   </productDetails>
 </root>

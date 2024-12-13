@@ -1,0 +1,7 @@
+<!ELEMENT biblioteka (ksiazka*)>
+<!ELEMENT ksiazka (tytul, autor+, rok_wydania, gatunek, isbn)>
+<!ELEMENT tytul (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT rok_wydania (#PCDATA)>
+<!ELEMENT gatunek (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:simpleType name="tekstTyp">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2" fixed="true"></xs:minLength>
+            <xs:maxLength value="30"></xs:maxLength>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="tekstTypImie">
+        <xs:restriction base="tekstTyp">
+            <xs:maxLength value="15"></xs:maxLength>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="pacjentTyp">
+        <xs:sequence>
+            <xs:element name="pacjent" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="imie" type="tekstTypImie"></xs:element>
+                        <xs:element name="nazwisko" type="tekstTyp"></xs:element>
+                        <xs:element name="miasto" type="tekstTyp"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="przychodnia" type="pacjentTyp"></xs:element>
+</xs:schema>

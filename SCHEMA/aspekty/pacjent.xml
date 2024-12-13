@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="nazwisko.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<przychodnia>
+    <pacjent>
+        <imie>Jan</imie>
+        <nazwisko>Kowalski</nazwisko>
+        <miasto>Lublin</miasto>
+    </pacjent>
+    <pacjent>
+        <imie>Moniusz</imie>
+        <nazwisko>Knot</nazwisko>
+        <miasto>Kielce</miasto>
+    </pacjent>
+    <pacjent>
+        <imie>Jan</imie>
+        <nazwisko>Kowalski</nazwisko>
+        <miasto>Lublin</miasto>
+    </pacjent>
+</przychodnia>

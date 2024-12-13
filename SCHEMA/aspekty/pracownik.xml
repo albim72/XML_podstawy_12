@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="nip.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<firma>
+    <pracownik>
+        <imie>Karol</imie>
+        <nazwisko>Kowal</nazwisko>
+        <nip>987-457-78-64</nip>
+        <waluta>USD</waluta>
+    </pracownik>
+    <pracownik>
+        <imie>Nadia</imie>
+        <nazwisko>Kiwak</nazwisko>
+        <nip>971-34-24-244</nip>
+        <waluta>PLN</waluta>
+    </pracownik>
+    <pracownik>
+        <imie>Michał</imie>
+        <nazwisko>Kowalski</nazwisko>
+        <nip>982-145-85-25</nip>
+        <waluta>CHF</waluta>
+    </pracownik>
+    <pracownik>
+        <imie>Anna</imie>
+        <nazwisko>Bim</nazwisko>
+        <nip>654-243-86-45</nip>
+        <waluta>USD</waluta>
+    </pracownik>
+</firma>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:simpleType name="mojTypNumerDomu">
+        <xs:restriction base="xs:positiveInteger"></xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="mojTypAdres">
+        <xs:sequence>
+            <xs:element name="ulica" type="xs:string"></xs:element>
+            <xs:element name="nrDomu" type="mojTypNumerDomu"></xs:element>
+            <xs:element name="lokal" type="mojTypNumerDomu"></xs:element>
+            <xs:element name="miasto" type="xs:string"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="typ_adresu" type="xs:token" fixed="czasowy"></xs:attribute>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="uczelnia">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ListaStudentow">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="student" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nazwisko" type="xs:string"></xs:element>
+                                        <xs:element name="imie" type="xs:string"></xs:element>
+                                        <xs:element name="nrIndeksu" type="xs:decimal"></xs:element>
+                                        <xs:element name="wydzialStudent" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="grupa" type="xs:string"></xs:attribute>
+                                    <xs:attribute name="pozycjaWGrupie" type="xs:string"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+
+                    <!-- klucz  prosty odwołanie do pola selektora(elementu nadrzędnego)-->
+                    <xs:key name="kluczStudenta">
+                        <xs:selector xpath="student"></xs:selector>
+                        <xs:field xpath="nrIndeksu"></xs:field>
+                    </xs:key>
+
+                    <!-- klucz złożony o charakterze unikatowym-->
+                    <xs:unique name="kluczZlozony">
+                        <xs:selector xpath="student"></xs:selector>
+                        <xs:field xpath="wydzialStudent"></xs:field>
+                        <xs:field xpath="@grupa"></xs:field>
+                        <xs:field xpath="@pozycjaWGrupie"></xs:field>
+                    </xs:unique>
+
+
+                </xs:element>
+                <xs:element name="wydzial" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nazwa" type="xs:string"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="numerWydzialu" type="xs:string"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+
+        <xs:unique name="kluczNazwiskoImie">
+            <xs:selector xpath="ListaStudentow/student"></xs:selector>
+            <xs:field xpath="nazwisko"></xs:field>
+            <xs:field xpath="imie"></xs:field>
+        </xs:unique>
+
+        <xs:key name="kluczWydzial">
+            <xs:selector xpath="wydzial"></xs:selector>
+            <xs:field xpath="@numerWydzialu"></xs:field>
+        </xs:key>
+
+        <xs:keyref name="wydzStudenta" refer="kluczWydzial">
+            <xs:selector xpath="ListaStudentow/student"></xs:selector>
+            <xs:field xpath="wydzialStudent"></xs:field>
+
+        </xs:keyref>
+    </xs:element>
+</xs:schema>

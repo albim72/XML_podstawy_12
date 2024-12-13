@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="uczelnia.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<uczelnia>
+    <ListaStudentow>
+        <student grupa="I" pozycjaWGrupie="10">
+            <nazwisko>Kowalski</nazwisko>
+            <imie>Jan</imie>
+            <nrIndeksu>6453</nrIndeksu>
+            <wydzialStudent>3499</wydzialStudent>
+        </student>
+        <student grupa="IV" pozycjaWGrupie="2">
+            <nazwisko>Stanowski</nazwisko>
+            <imie>Marek</imie>
+            <nrIndeksu>8535</nrIndeksu>
+            <wydzialStudent>1213</wydzialStudent>
+        </student>
+        <student grupa="IV" pozycjaWGrupie="11">
+            <nazwisko>Nowik</nazwisko>
+            <imie>Sylwia</imie>
+            <nrIndeksu>1345</nrIndeksu>
+            <wydzialStudent>1331</wydzialStudent>
+        </student>
+        <student grupa="I" pozycjaWGrupie="10">
+            <nazwisko>Kowal</nazwisko>
+            <imie>Janusz</imie>
+            <nrIndeksu>87654</nrIndeksu>
+            <wydzialStudent>1331</wydzialStudent>
+        </student>
+        <student grupa="V" pozycjaWGrupie="8">
+            <nazwisko>Rymwid</nazwisko>
+            <imie>Maria</imie>
+            <nrIndeksu>2311</nrIndeksu>
+            <wydzialStudent>3499</wydzialStudent>
+        </student>
+    </ListaStudentow>
+    <wydzial numerWydzialu="3499">
+        <nazwa>Wydział Informatyki i Zarządzania</nazwa>
+    </wydzial>
+    <wydzial numerWydzialu="1331">
+        <nazwa>Wydział Architektury</nazwa>
+    </wydzial>
+    <wydzial numerWydzialu="1213">
+        <nazwa>Wydział Archeologii</nazwa>
+    </wydzial>
+</uczelnia>

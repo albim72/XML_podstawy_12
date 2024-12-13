@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:group name="osobaFizyczna">
+        <xs:sequence>
+            <xs:element name="nazwisko" type="xs:string"></xs:element>
+            <xs:element name="imie" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:attributeGroup name="osobaAtrybut">
+        <xs:attribute name="pesel" type="xs:string"></xs:attribute>
+        <xs:attribute name="NIP" type="xs:string"></xs:attribute>
+    </xs:attributeGroup>
+
+    <xs:element name="firmaHandlowa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="kontrahent">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:group ref="osobaFizyczna"/>
+                            <xs:element name="upust" type="xs:decimal"/>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="osobaAtrybut"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="pracownik">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:group ref="osobaFizyczna"></xs:group>
+                            <xs:element name="dzial" type="xs:string"></xs:element>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="osobaAtrybut"></xs:attributeGroup>
+                        <xs:attribute name="stanowisko" type="xs:string"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:Order xmlns:ns="http://localhost/order"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://localhost/order http://localhost/order/order.xsd">
+    <ns:OrderID>12345</ns:OrderID>
+    <ns:Customer>
+        <ns:Name>Janina Kowalska</ns:Name>
+        <ns:Phone>+48123456789</ns:Phone>
+    </ns:Customer>
+    <ns:Items>
+        <ns:Item>
+            <ns:Name>Telefon</ns:Name>
+            <ns:Quantity>1</ns:Quantity>
+        </ns:Item>
+        <ns:Item>
+            <ns:Name>Laptop</ns:Name>
+            <ns:Quantity>2</ns:Quantity>
+        </ns:Item>
+    </ns:Items>
+</ns:Order>

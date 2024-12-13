@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spisosob>
+    <osoba>
+        <nazwisko>Borek</nazwisko>
+        <imie>Jan</imie>
+    </osoba>
+    <osoba>
+        <nazwisko>Borek</nazwisko>
+        <imie>Anna</imie>
+        <panienskie>Kos</panienskie>
+    </osoba>
+    <osoba>
+        <nazwisko>Norek</nazwisko>
+        <imie>Antoni</imie>
+        <dzieci>Jacek</dzieci>
+        <dzieci>Maria</dzieci>
+    </osoba>
+</spisosob>

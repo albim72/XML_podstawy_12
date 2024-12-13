@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="wynikMeczu"></xs:element>
+    <xs:element name="wygrana" type="xs:string"></xs:element>
+    <xs:element name="przegrana" type="xs:string"></xs:element>
+    <xs:element name="remis" type="xs:string"></xs:element>
+    <xs:element name="walkower" type="xs:string"></xs:element>
+</xs:schema>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:simpleType name="typNIP">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(^[1-9]((\d[1-9])|([1-9]\d))\d{7}$)"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="kodWaluty">
+        <xs:restriction base="xs:string">
+            <xs:length value="3"></xs:length>
+        <xs:pattern value="[U,S,D,P,L,N,C,H,F]{0,3}"></xs:pattern>
+        </xs:restriction>
+        
+    </xs:simpleType>
+    
+    <xs:element name="firma">
+        
+    </xs:element>
+</xs:schema>

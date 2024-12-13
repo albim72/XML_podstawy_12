@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="grupastudentow.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<grupaStudentow nazwaprzedmiotu="Wstęp do ML" rodzaj="wykład">
+    <student>
+        <imie>Karol</imie>
+        <nazwisko>Kot</nazwisko>
+    </student>
+    <student>
+        <imie>Anna</imie>
+        <nazwisko>Kos</nazwisko>
+    </student>
+    <student>
+        <imie>Nadia</imie>
+        <nazwisko>Nowik</nazwisko>
+    </student>
+    <student>
+        <imie>Marek</imie>
+        <nazwisko>Bryń</nazwisko>
+    </student>
+    <student>
+        <imie>Roma</imie>
+        <nazwisko>Szrec</nazwisko>
+    </student>
+    <student>
+        <imie>Piotr</imie>
+        <nazwisko>Maciąg</nazwisko>
+    </student>
+</grupaStudentow>

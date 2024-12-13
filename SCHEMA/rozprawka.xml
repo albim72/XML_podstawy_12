@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="rozprawka.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<rozprawka>
+    <wstep>To jest wstęp rozprawki.</wstep>
+    <rozwiniecie>To jest rozwinięcie wątków zawartych w rozprawce</rozwiniecie>
+    <zakonczenie>To jest podsumowanie wątków rozprawki</zakonczenie>
+    <liczba_znakow>2100</liczba_znakow>
+</rozprawka>

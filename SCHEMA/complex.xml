@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="complex.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<adres typ_adresu="czasowy">
+    <ulica>Jana Kazimierza</ulica>
+    <nrDomu>146</nrDomu>
+    <lokal>24</lokal>
+    <miasto>Zamość</miasto>
+</adres>

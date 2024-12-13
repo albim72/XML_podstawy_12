@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:simpleType name="typNIP">
         <xs:restriction base="xs:string">
-            <xs:pattern value="(^[1-9]((\d[1-9])|([1-9]\d))\d{7}$)"></xs:pattern>
+            <xs:pattern value="([1-9]{1}[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}|[1-9]{1}[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{3})"></xs:pattern>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="kodWaluty">
@@ -14,6 +14,19 @@
     </xs:simpleType>
     
     <xs:element name="firma">
-        
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pracownik" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="imie" type="xs:string"></xs:element>
+                            <xs:element name="nazwisko" type="xs:string"></xs:element>
+                            <xs:element name="nip" type="typNIP"></xs:element>
+                            <xs:element name="waluta" type="kodWaluty"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
     </xs:element>
 </xs:schema>

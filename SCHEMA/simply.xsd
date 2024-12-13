@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="adres"></xs:element>
+    <xs:simpleType name="mojTypNumer">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:maxInclusive value="150"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="ulica" type="xs:string"></xs:element>
+    <xs:element name="nrDomu" type="mojTypNumer"></xs:element>
+    <xs:element name="lokal" type="xs:integer"></xs:element>
+    <xs:element name="miasto" type="xs:string"></xs:element>
+</xs:schema>
